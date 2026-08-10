@@ -313,28 +313,3 @@ st.divider()
 
 if st.button("🔄 Reset", use_container_width=True):
     st.rerun()
-# -----------------------------
-# About the Model
-# -----------------------------
-
-st.divider()
-
-st.subheader("📊 About the Model")
-
-col1, col2, col3, col4 = st.columns(4)
-
-with col1:
-    st.metric("Model", "Random Forest")
-
-with col2:
-    st.metric("Accuracy", "85.19%")
-
-with col3:
-    st.metric("ROC-AUC", "0.876")
-
-with col4:
-    st.metric("Features", "109")
-
-st.write("**Decision Threshold:** 0.35")
-
-st.write("**Most Important Feature:** Humidity3pm")
