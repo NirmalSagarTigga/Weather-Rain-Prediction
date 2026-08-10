@@ -74,3 +74,14 @@ Rain probability
 Rain/No-Rain prediction
 Reset button
 Model performance information
+
+## ⚙️ Installation
+Clone the repository:
+git clone YOUR_GITHUB_REPOSITORY_URL
+cd Weather-Rain-Prediction
+
+**Install the required packages:**
+pip install -r requirements.txt
+
+## ▶️ Run the Streamlit Application
+python -m streamlit run app.py
