@@ -85,3 +85,14 @@ pip install -r requirements.txt
 
 ## ▶️ Run the Streamlit Application
 python -m streamlit run app.py
+
+## 🛠️ Technologies Used
+Python
+Pandas
+NumPy
+Scikit-learn
+Joblib
+Streamlit
+Matplotlib
+Seaborn
+Jupyter Notebook
